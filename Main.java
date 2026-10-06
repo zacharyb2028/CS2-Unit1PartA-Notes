@@ -88,6 +88,36 @@ public class Main {
       average = (double) sum / 3;
       System.out.println(average);
 
+      // Lesson 1.6 Compound Assignment Operators
+      int peanutButter = 3;
+      peanutButter = peanutButter + 2;
+      // we can condense our operations with Compound Assignment Operators
+      // addition becomes +=
+      // the order is always variable operation equals value
+      peanutButter += 2;
+      peanutButter -= 3;
+
+      // addition and subtraction can also increment and decrement (only goes by 1)
+      peanutButter++;
+      peanutButter--;
+
+      int score = 0;
+      System.out.println(score);
+
+      score++;                   
+      System.out.println(score);
+
+      score *= 2;                
+      System.out.println(score);
+
+      int penalty = 5;
+      score -= penalty / 2;
+      System.out.println(score);
+      
+      score += 3;
+      score /= 2;
+      System.out.println(score);
+
    }
 }
 
